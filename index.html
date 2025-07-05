@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>專業課程學院 - 用心陪伴每一步學習</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>陪妳一起成長的小學院</h1>
+            <p class="subtitle">閒暇之餘，妳也值得一堂屬於自己的課</p>
+            <p>在這裡，每一位學員都能找到屬於自己的學習時光。我們提供專業的課程，在充實自己的同時，也能享有安心的環境。</p>
+
+            <div class="trust-badge">
+                <div class="trust-item">專業認證師資</div>
+                <div class="trust-item">一對一指導</div>
+                <div class="trust-item">課後諮詢服務</div>
+            </div>
+        </div>
+
+
+        <div class="courses-grid">
+
+            <div class="course-card" onclick="openModal('dance')">
+                <img src="mis/舞蹈.jpg" alt="舞蹈課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">舞蹈課程</h3>
+                    <p class="course-subtitle">釋放身體的韻律與美感</p>
+                    <p class="course-description">專業舞蹈老師指導，從基礎動作到進階技巧，培養優雅體態與自信表達。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">基礎教學</span>
+                        <span class="feature-tag">多種風格</span>
+                        <span class="feature-tag">體態雕塑</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('family_dance')">
+                <img src="mis/親子舞蹈.jpg" alt="親子舞蹈課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">親子舞蹈</h3>
+                    <p class="course-subtitle">增進親子關係的美好時光</p>
+                    <p class="course-description">父母與孩子一同學習舞蹈，在音樂中增進親子感情，培養孩子的協調性。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">親子互動</span>
+                        <span class="feature-tag">兒童發展</span>
+                        <span class="feature-tag">家庭樂趣</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('music_rhythm')">
+                <img src="mis/音樂律動.jpg" alt="音樂律動課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">音樂律動</h3>
+                    <p class="course-subtitle">感受音樂的魅力與節拍</p>
+                    <p class="course-description">結合音樂與肢體動作，培養音樂感知能力，適合各年齡層學員。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">音感培養</span>
+                        <span class="feature-tag">肢體協調</span>
+                        <span class="feature-tag">創意表達</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('yoga')">
+                <img src="mis/瑜珈.jpg" alt="瑜珈課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">瑜珈課程</h3>
+                    <p class="course-subtitle">身心靈平衡的修練</p>
+                    <p class="course-description">專業瑜珈老師指導，透過體位法練習達到身心平衡，提升柔軟度與專注力。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">身心平衡</span>
+                        <span class="feature-tag">柔軟度提升</span>
+                        <span class="feature-tag">壓力釋放</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+            <div class="course-card" onclick="openModal('meditation')">
+                <img src="mis/冥想.jpg" alt="正念冥想課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">正念冥想</h3>
+                    <p class="course-subtitle">安頓身心靈的平靜練習</p>
+                    <p class="course-description">學習正念技巧與身心覺察，在忙碌生活中找到內在平衡與寧靜。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">內在平靜</span>
+                        <span class="feature-tag">專注提升</span>
+                        <span class="feature-tag">壓力管理</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('bazi')">
+                <img src="mis/八字基礎.jpg" alt="八字命理課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">八字命理</h3>
+                    <p class="course-subtitle">探索生命智慧與人生規律</p>
+                    <p class="course-description">系統化學習傳統命理學，掌握八字分析技巧，深入理解人生運勢。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">傳統文化</span>
+                        <span class="feature-tag">實務應用</span>
+                        <span class="feature-tag">專業認證</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('tea')">
+                <img src="mis/茶道.jpg" alt="茶道文化課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">茶道文化</h3>
+                    <p class="course-subtitle">品味東方雅韻與禪意生活</p>
+                    <p class="course-description">學習傳統茶藝技法，深入了解茶文化精髓，享受茶香中的寧靜時光。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">傳統藝術</span>
+                        <span class="feature-tag">禪意生活</span>
+                        <span class="feature-tag">品味修養</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('soap')">
+                <img src="mis/手工香皂.jpg" alt="手工皂製作課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">手工皂製作</h3>
+                    <p class="course-subtitle">創造天然美好的生活品質</p>
+                    <p class="course-description">學習天然手工皂製作技術，使用優質植物油脂，創作獨特配方。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">天然原料</span>
+                        <span class="feature-tag">手作技藝</span>
+                        <span class="feature-tag">環保生活</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('candle')">
+                <img src="mis/香氛蠟燭.jpeg" alt="香氛蠟燭製作課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">香氛蠟燭製作</h3>
+                    <p class="course-subtitle">點亮生活的溫馨香氛</p>
+                    <p class="course-description">學習製作天然香氛蠟燭，調配獨特香味，為生活增添溫馨氛圍。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">香氛調配</span>
+                        <span class="feature-tag">手作創意</span>
+                        <span class="feature-tag">生活美學</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('coffee')">
+                <img src="mis/手沖咖啡.jpg" alt="手沖咖啡課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">手沖咖啡</h3>
+                    <p class="course-subtitle">品味生活的咖啡藝術</p>
+                    <p class="course-description">學習專業手沖技巧，從咖啡豆選擇到萃取技術，享受咖啡的純粹美味。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">專業技法</span>
+                        <span class="feature-tag">品質萃取</span>
+                        <span class="feature-tag">咖啡文化</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('baking')">
+                <img src="mis/烘焙.jpg" alt="烘焙課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">烘焙課程</h3>
+                    <p class="course-subtitle">用心製作的甜蜜時光</p>
+                    <p class="course-description">從基礎麵包到精緻甜點，學習專業烘焙技術，享受手作的溫暖療癒。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">基礎技法</span>
+                        <span class="feature-tag">創意甜點</span>
+                        <span class="feature-tag">溫暖療癒</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('organizer')">
+                <img src="mis/收納師.jpg" alt="收納整理師課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">收納整理師</h3>
+                    <p class="course-subtitle">打造有序美好的生活空間</p>
+                    <p class="course-description">學習專業整理技巧與空間規劃，培養整理師專業能力，改善生活品質。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">專業認證</span>
+                        <span class="feature-tag">空間規劃</span>
+                        <span class="feature-tag">生活品質</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('housekeeping')">
+                <img src="mis/家政班.jpg" alt="家政班課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">家政班</h3>
+                    <p class="course-subtitle">提升居家生活技能</p>
+                    <p class="course-description">學習實用的居家技能，包括清潔技巧、收納方法、家務管理等生活智慧。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">實用技能</span>
+                        <span class="feature-tag">生活智慧</span>
+                        <span class="feature-tag">家務管理</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('sewing')">
+                <img src="mis/縫紉.jpg" alt="縫紉課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">縫紉課程</h3>
+                    <p class="course-subtitle">手作服飾的精緻工藝</p>
+                    <p class="course-description">從基礎針法到進階裁縫，學習服裝製作技術，創造獨一無二的手作服飾。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">基礎針法</span>
+                        <span class="feature-tag">服裝製作</span>
+                        <span class="feature-tag">手作工藝</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('knitting')">
+                <img src="mis/編織.jpg" alt="編織課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">編織課程</h3>
+                    <p class="course-subtitle">溫暖心靈的手作藝術</p>
+                    <p class="course-description">學習各種編織技法，從圍巾到毛衣，創作溫暖實用的編織作品。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">編織技法</span>
+                        <span class="feature-tag">溫暖實用</span>
+                        <span class="feature-tag">療癒手作</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('floriculture')">
+                <img src="mis/花藝.jpg" alt="花藝設計課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">花藝設計</h3>
+                    <p class="course-subtitle">創造自然美感的藝術</p>
+                    <p class="course-description">學習花材搭配與設計技巧，創作美麗的花藝作品，為生活增添自然美感。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">自然美學</span>
+                        <span class="feature-tag">設計創意</span>
+                        <span class="feature-tag">生活裝飾</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('gardening')">
+                <img src="mis/園藝.png" alt="園藝栽培課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">園藝栽培</h3>
+                    <p class="course-subtitle">與大自然共生的綠色生活</p>
+                    <p class="course-description">學習植物栽培技術，從室內盆栽到戶外園藝，享受與植物共生的療癒時光。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">植物栽培</span>
+                        <span class="feature-tag">綠色生活</span>
+                        <span class="feature-tag">療癒時光</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('oil_painting')">
+                <img src="mis/油畫.jpg" alt="油畫藝術課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">油畫藝術</h3>
+                    <p class="course-subtitle">經典繪畫的藝術表達</p>
+                    <p class="course-description">學習油畫技法與色彩運用，從基礎到進階，培養個人藝術風格。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">經典技法</span>
+                        <span class="feature-tag">色彩運用</span>
+                        <span class="feature-tag">藝術創作</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('calligraphy')">
+                <img src="mis/書法美學.jpg" alt="書法美學課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">書法美學</h3>
+                    <p class="course-subtitle">文字的藝術與心靈修養</p>
+                    <p class="course-description">學習傳統書法技法，在一筆一劃中修養身心，領悟中華文字之美。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">傳統文化</span>
+                        <span class="feature-tag">心靈修養</span>
+                        <span class="feature-tag">文字藝術</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('pottery')">
+                <img src="mis/陶藝.jpg" alt="陶藝創作課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">陶藝創作</h3>
+                    <p class="course-subtitle">土與火的藝術對話</p>
+                    <p class="course-description">學習陶藝技法，從拉坯到燒製，創作獨特的陶瓷作品，感受土與火的魅力。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">手作技藝</span>
+                        <span class="feature-tag">創意造型</span>
+                        <span class="feature-tag">藝術療癒</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('glassblowing')">
+                <img src="mis/玻璃吹製.jpg" alt="玻璃吹製課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">玻璃吹製</h3>
+                    <p class="course-subtitle">高溫藝術的精湛工藝</p>
+                    <p class="course-description">學習傳統玻璃吹製技術，創作精美的玻璃藝術品，體驗高溫工藝的魅力。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">傳統工藝</span>
+                        <span class="feature-tag">高溫技術</span>
+                        <span class="feature-tag">藝術創作</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+            <div class="course-card" onclick="openModal('jewelry')">
+                <img src="mis/清奢飾品.jpg" alt="清奢飾品製作課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">清奢飾品製作</h3>
+                    <p class="course-subtitle">精緻優雅的飾品工藝</p>
+                    <p class="course-description">學習飾品設計與製作，創作簡約優雅的手作飾品，展現個人品味。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">飾品設計</span>
+                        <span class="feature-tag">精緻工藝</span>
+                        <span class="feature-tag">個人品味</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+
+
+            <div class="course-card" onclick="openModal('golf')">
+                <img src="mis/高爾夫.jpg" alt="高爾夫課程" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">高爾夫課程</h3>
+                    <p class="course-subtitle">優雅運動的紳士風範</p>
+                    <p class="course-description">專業教練指導，學習高爾夫技術與禮儀，享受優雅運動的樂趣。</p>
+                    <div class="course-features">
+                        <span class="feature-tag">專業指導</span>
+                        <span class="feature-tag">運動技巧</span>
+                        <span class="feature-tag">優雅禮儀</span>
+                    </div>
+                    <a href="#" class="learn-more">了解詳情</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mobile-grid">
+            <div class="mobile-course-item" onclick="openModal('baking')">
+                <img src="mis/烘焙.jpg" alt="烘焙課程" class="mobile-course-image">
+                <div class="mobile-course-title">烘焙課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('meditation')">
+                <img src="mis/冥想.jpg" alt="冥想課程" class="mobile-course-image">
+                <div class="mobile-course-title">冥想課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('knitting')">
+                <img src="mis/編織.jpg" alt="編織課程" class="mobile-course-image">
+                <div class="mobile-course-title">編織課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('candle')">
+                <img src="mis/香氛蠟燭.jpeg" alt="香氛蠟燭課程" class="mobile-course-image">
+                <div class="mobile-course-title">香氛蠟燭課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('tea')">
+                <img src="mis/茶道.jpg" alt="茶道課程" class="mobile-course-image">
+                <div class="mobile-course-title">茶道課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('soap')">
+                <img src="mis/手工香皂.jpg" alt="手工皂課程" class="mobile-course-image">
+                <div class="mobile-course-title">手工皂課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('calligraphy')">
+                <img src="mis/書法美學.jpg" alt="書法美學創意課程" class="mobile-course-image">
+                <div class="mobile-course-title">書法美學創意課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('music_rhythm')">
+                <img src="mis/音樂律動.jpg" alt="音樂律動啟蒙課" class="mobile-course-image">
+                <div class="mobile-course-title">音樂律動啟蒙課</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('pottery')">
+                <img src="mis/陶藝.jpg" alt="陶藝課程" class="mobile-course-image">
+                <div class="mobile-course-title">陶藝課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('gardening')">
+                <img src="mis/園藝.png" alt="園藝課程" class="mobile-course-image">
+                <div class="mobile-course-title">園藝課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('dance')">
+                <img src="mis/舞蹈.jpg" alt="舞蹈課程" class="mobile-course-image">
+                <div class="mobile-course-title">舞蹈課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('floriculture')">
+                <img src="mis/花藝.jpg" alt="花藝課程" class="mobile-course-image">
+                <div class="mobile-course-title">花藝課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('coffee')">
+                <img src="mis/手沖咖啡.jpg" alt="手沖咖啡課程" class="mobile-course-image">
+                <div class="mobile-course-title">手沖咖啡課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('organizer')">
+                <img src="mis/收納師.jpg" alt="收納師課程" class="mobile-course-image">
+                <div class="mobile-course-title">收納師課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('oil_painting')">
+                <img src="mis/油畫.jpg" alt="油畫課程" class="mobile-course-image">
+                <div class="mobile-course-title">油畫課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('jewelry')">
+                <img src="mis/清奢飾品.jpg" alt="清奢飾品課程" class="mobile-course-image">
+                <div class="mobile-course-title">清奢飾品課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('glassblowing')">
+                <img src="mis/玻璃吹製.jpg" alt="玻璃吹製課程" class="mobile-course-image">
+                <div class="mobile-course-title">玻璃吹製課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('yoga')">
+                <img src="mis/瑜珈.jpg" alt="瑜珈課程" class="mobile-course-image">
+                <div class="mobile-course-title">瑜珈課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('sewing')">
+                <img src="mis/縫紉.jpg" alt="縫紉課程" class="mobile-course-image">
+                <div class="mobile-course-title">縫紉課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('family_dance')">
+                <img src="mis/親子舞蹈.jpg" alt="親子舞蹈課程" class="mobile-course-image">
+                <div class="mobile-course-title">親子舞蹈課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('bazi')">
+                <img src="mis/八字基礎.jpg" alt="八字基礎課程" class="mobile-course-image">
+                <div class="mobile-course-title">八字基礎課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('housekeeping')">
+                <img src="mis/家政班.jpg" alt="家政班課程" class="mobile-course-image">
+                <div class="mobile-course-title">家政班課程</div>
+            </div>
+
+            <div class="mobile-course-item" onclick="openModal('golf')">
+                <img src="mis/高爾夫.jpg" alt="高爾夫課程" class="mobile-course-image">
+                <div class="mobile-course-title">高爾夫課程</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="courseModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-header">
+                <img id="modalImage" src="" alt="" class="modal-image">
+            </div>
+            <div class="modal-body">
+                <h2 id="modalTitle" class="modal-title"></h2>
+                <p id="modalSubtitle" class="modal-subtitle"></p>
+
+                <div class="teacher-info">
+                    <h4>🎓 專業師資保證</h4>
+                    <p>我們的師資團隊均具備豐富的教學經驗與專業認證，致力於提供最優質的學習體驗。小班制教學確保每位學員都能獲得充分的指導與關注。</p>
+                </div>
+
+                <div id="modalDescription" class="modal-description"></div>
+
+                <a id="lineButton" href="#" class="line-button">聯繫專業老師諮詢</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

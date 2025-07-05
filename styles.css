@@ -1,0 +1,728 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans TC', 'Arial', '微軟正黑體', sans-serif;
+    line-height: 1.6;
+    color: #4A4A4A;
+    background: linear-gradient(135deg, #FEECEB 0%, #FFF6E5 50%, #E8F6F3 100%);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero 區塊 */
+.header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 80px 30px;
+    background: linear-gradient(
+        rgba(255, 178, 175, 0.15),
+        rgba(244, 231, 253, 0.15)
+    ), url('mis/烘焙.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    box-shadow: 0 20px 60px rgba(255, 178, 175, 0.15);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        135deg,
+        rgba(254, 236, 235, 0.9) 0%,
+        rgba(255, 246, 229, 0.85) 50%,
+        rgba(232, 246, 243, 0.9) 100%
+    );
+    border-radius: 30px;
+}
+
+.header * {
+    position: relative;
+    z-index: 2;
+}
+
+.header h1 {
+    color: #6B4C7A;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-shadow: 0 2px 8px rgba(255, 255, 255, 0.8);
+}
+
+.header .subtitle {
+    font-size: 1.4rem;
+    color: #8E7BA3;
+    margin-bottom: 25px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.header p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 650px;
+    margin: 0 auto 30px;
+    line-height: 1.8;
+}
+
+.trust-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.trust-item {
+    display: flex;
+    align-items: center;
+    color: #6B4C7A;
+    font-size: 1rem;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 18px;
+    border-radius: 25px;
+    box-shadow: 0 4px 15px rgba(255, 178, 175, 0.2);
+}
+
+.trust-item::before {
+    content: "💕";
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+/* 學員分享區塊 */
+.testimonials {
+    margin: 60px 0;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #F4E7FD 0%, #FFF6E5 100%);
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(244, 231, 253, 0.3);
+}
+
+.testimonials h3 {
+    text-align: center;
+    color: #6B4C7A;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.testimonials-scroll {
+    display: flex;
+    gap: 25px;
+    overflow-x: auto;
+    padding: 20px 0;
+    scroll-behavior: smooth;
+}
+
+.testimonials-scroll::-webkit-scrollbar {
+    height: 6px;
+}
+
+.testimonials-scroll::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+
+.testimonials-scroll::-webkit-scrollbar-thumb {
+    background: #FFB2AF;
+    border-radius: 3px;
+}
+
+.testimonial-item {
+    min-width: 280px;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(255, 178, 175, 0.15);
+    text-align: center;
+}
+
+.testimonial-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 15px;
+    border: 3px solid #FFB2AF;
+}
+
+.testimonial-text {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.testimonial-author {
+    color: #6B4C7A;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.course-card {
+    background: linear-gradient(145deg, #ffffff 0%, #fefefe 100%);
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(255, 178, 175, 0.08);
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    cursor: pointer;
+    position: relative;
+    border: 1px solid rgba(255, 178, 175, 0.1);
+}
+
+.course-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 25px 50px rgba(255, 178, 175, 0.2);
+    border-color: rgba(255, 178, 175, 0.3);
+}
+
+.course-card:hover .course-image {
+    filter: brightness(1.1) saturate(1.1);
+}
+
+.childcare-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: linear-gradient(135deg, #FFB2AF 0%, #FFA29E 100%);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    z-index: 3;
+    box-shadow: 0 4px 12px rgba(255, 178, 175, 0.4);
+}
+
+.course-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: all 0.4s ease;
+    filter: brightness(1.05) saturate(1.05);
+}
+
+.course-info {
+    padding: 25px 20px;
+    text-align: left;
+}
+
+.course-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #6B4C7A;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+.course-subtitle {
+    color: #A085B8;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.course-description {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.course-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.feature-tag {
+    background: linear-gradient(135deg, #E8F6F3 0%, #F4E7FD 100%);
+    color: #6B4C7A;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border: 1px solid rgba(255, 178, 175, 0.2);
+}
+
+.learn-more {
+    color: #FFB2AF;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    padding: 8px 16px;
+    background: linear-gradient(135deg, rgba(255, 178, 175, 0.1) 0%, rgba(244, 231, 253, 0.1) 100%);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 178, 175, 0.2);
+}
+
+.learn-more::after {
+    content: "🌸";
+    margin-left: 6px;
+    transition: transform 0.3s ease;
+}
+
+.course-card:hover .learn-more::after {
+    transform: translateX(3px) scale(1.1);
+}
+
+/* 手機端小圖示樣式 */
+.mobile-grid {
+    display: none;
+}
+
+.mobile-course-item {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(255, 178, 175, 0.12);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid rgba(255, 178, 175, 0.15);
+    position: relative;
+}
+
+.mobile-course-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(255, 178, 175, 0.2);
+}
+
+.mobile-course-image {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    filter: brightness(1.05);
+}
+
+.mobile-course-item:hover .mobile-course-image {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.mobile-course-title {
+    padding: 12px 8px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #6B4C7A;
+    line-height: 1.3;
+}
+
+.mobile-childcare-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #FFB2AF;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 8px;
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+/* 模態框樣式 */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(107, 76, 122, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+.modal-content {
+    background: linear-gradient(145deg, #ffffff 0%, #fefefe 100%);
+    margin: 3% auto;
+    padding: 0;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 700px;
+    max-height: 85vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 30px 80px rgba(107, 76, 122, 0.3);
+    border: 1px solid rgba(255, 178, 175, 0.2);
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    color: #A085B8;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1001;
+    background: rgba(255, 255, 255, 0.95);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 25px rgba(255, 178, 175, 0.3);
+    transition: all 0.3s ease;
+}
+
+.close:hover {
+    color: #FFB2AF;
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 1);
+}
+
+.modal-header {
+    position: relative;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 30px 30px 0 0;
+}
+
+.modal-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(1.1) saturate(1.1);
+}
+
+.modal-body {
+    padding: 40px 35px;
+}
+
+.modal-title {
+    font-size: 2.2rem;
+    color: #6B4C7A;
+    margin-bottom: 12px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.modal-subtitle {
+    color: #A085B8;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.modal-description {
+    color: #4A4A4A;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.modal-description h4 {
+    color: #6B4C7A;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.modal-description ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.modal-description li {
+    margin-bottom: 8px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.teacher-info {
+    background: linear-gradient(135deg, #E8F6F3 0%, #F4E7FD 100%);
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    border-left: 4px solid #FFB2AF;
+    box-shadow: 0 4px 15px rgba(255, 178, 175, 0.1);
+}
+
+.teacher-info h4 {
+    color: #6B4C7A;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.teacher-info p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.line-button {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    background: linear-gradient(135deg, #FFB2AF 0%, #FFA29E 100%);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(255, 178, 175, 0.4);
+    letter-spacing: 0.5px;
+}
+
+.line-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(255, 178, 175, 0.5);
+    background: linear-gradient(135deg, #FFA29E 0%, #FF9590 100%);
+}
+
+.line-button::before {
+    content: "💌 ";
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+
+/* 裝飾元素 */
+.decoration {
+    position: fixed;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.decoration-flower {
+    bottom: 10%;
+    right: 5%;
+    width: 150px;
+    height: 150px;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="30" r="15" fill="%23FFB2AF"/><circle cx="70" cy="50" r="15" fill="%23F4E7FD"/><circle cx="50" cy="70" r="15" fill="%23E8F6F3"/><circle cx="30" cy="50" r="15" fill="%23FFF6E5"/><circle cx="50" cy="50" r="10" fill="%23FEECEB"/></svg>') center/contain no-repeat;
+}
+
+.decoration-leaf {
+    top: 20%;
+    left: 5%;
+    width: 100px;
+    height: 100px;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M20,80 Q20,20 80,20 Q20,20 20,80" fill="%23E8F6F3"/></svg>') center/contain no-repeat;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .header {
+        padding: 50px 20px;
+        margin-bottom: 30px;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header .subtitle {
+        font-size: 1.1rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+    }
+
+    .trust-badge {
+        gap: 15px;
+    }
+
+    .trust-item {
+        font-size: 0.9rem;
+        padding: 8px 14px;
+    }
+
+    .testimonials {
+        margin: 40px 0;
+        padding: 30px 15px;
+    }
+
+    .testimonials h3 {
+        font-size: 1.5rem;
+    }
+
+    .testimonial-item {
+        min-width: 250px;
+        padding: 20px;
+    }
+
+    /* 隱藏桌面版，顯示手機版 */
+    .courses-grid {
+        display: none;
+    }
+
+    .mobile-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin-bottom: 40px;
+    }
+
+    .modal-content {
+        margin: 8% auto;
+        width: 95%;
+    }
+
+    .modal-body {
+        padding: 30px 25px;
+    }
+
+    .modal-title {
+        font-size: 1.8rem;
+    }
+
+    .decoration {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.8rem;
+    }
+
+    .header {
+        padding: 40px 15px;
+        margin-bottom: 25px;
+    }
+
+    .mobile-grid {
+        gap: 12px;
+    }
+
+    .mobile-course-title {
+        padding: 10px 6px;
+        font-size: 0.85rem;
+    }
+
+    .mobile-course-image {
+        height: 90px;
+    }
+
+    .modal-header {
+        height: 220px;
+    }
+
+    .modal-body {
+        padding: 25px 20px;
+    }
+
+    .testimonials-scroll {
+        gap: 15px;
+    }
+
+    .testimonial-item {
+        min-width: 220px;
+    }
+}
+
+/* 動畫效果 */
+.course-card {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.testimonial-item {
+    animation: slideInRight 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.modal-content {
+    animation: modalFadeIn 0.4s ease-out;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9) translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.header {
+    animation: headerFadeIn 1s ease-out;
+}
+
+@keyframes headerFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 載入動畫 */
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+.loading {
+    animation: pulse 1.5s ease-in-out infinite;
+}
