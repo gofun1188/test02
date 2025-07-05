@@ -373,7 +373,7 @@ body {
     padding: 0;
     border-radius: 30px;
     width: 90%;
-    max-width: 700px;
+    max-width: 900px;
     max-height: 85vh;
     overflow-y: auto;
     position: relative;
@@ -516,6 +516,155 @@ body {
     font-size: 1.1rem;
 }
 
+/* Google 表單嵌入區塊樣式 */
+.enrollment-section {
+    margin: 30px 0;
+    padding: 30px;
+    background: linear-gradient(135deg, #FFF6E5 0%, #FEECEB 100%);
+    border-radius: 25px;
+    border: 2px solid rgba(255, 178, 175, 0.2);
+}
+
+.enrollment-title {
+    text-align: center;
+    color: #6B4C7A;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.enrollment-title::before {
+    content: "📝";
+    font-size: 1.3rem;
+}
+
+.google-form-container {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(255, 178, 175, 0.1);
+    border: 1px solid rgba(255, 178, 175, 0.1);
+    position: relative;
+}
+
+.google-form-iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 20px;
+}
+
+.form-note {
+    text-align: center;
+    color: #A085B8;
+    font-size: 0.9rem;
+    margin-top: 15px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    line-height: 1.5;
+}
+
+/* 成功訊息樣式 */
+.success-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 178, 175, 0.95) 0%, rgba(244, 231, 253, 0.95) 100%);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+}
+
+.success-content {
+    text-align: center;
+    color: white;
+    padding: 40px;
+    max-width: 400px;
+}
+
+.success-icon {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    animation: bounce 2s infinite;
+}
+
+.success-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.success-message {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    opacity: 0.95;
+}
+
+.success-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.success-line-btn {
+    background: #00B900;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0, 185, 0, 0.3);
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+.success-line-btn:hover {
+    background: #00A000;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(0, 185, 0, 0.4);
+    color: white;
+    text-decoration: none;
+}
+
+.success-line-btn::before {
+    content: "📱 ";
+    margin-right: 8px;
+}
+
+.success-close-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.success-close-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
 /* 裝飾元素 */
 .decoration {
     position: fixed;
@@ -611,6 +760,35 @@ body {
         font-size: 1.8rem;
     }
 
+    .google-form-iframe {
+        height: 550px;
+    }
+
+    .enrollment-section {
+        padding: 20px;
+        margin: 25px 0;
+    }
+    
+    .enrollment-title {
+        font-size: 1.3rem;
+    }
+
+    .success-content {
+        padding: 30px 20px;
+    }
+
+    .success-title {
+        font-size: 1.6rem;
+    }
+
+    .success-icon {
+        font-size: 3rem;
+    }
+
+    .success-message {
+        font-size: 1rem;
+    }
+
     .decoration {
         display: none;
     }
@@ -653,6 +831,45 @@ body {
 
     .testimonial-item {
         min-width: 220px;
+    }
+
+    .google-form-iframe {
+        height: 500px;
+    }
+    
+    .enrollment-section {
+        padding: 15px;
+    }
+    
+    .form-note {
+        font-size: 0.85rem;
+        padding: 12px;
+    }
+
+    .success-content {
+        padding: 25px 15px;
+    }
+
+    .success-title {
+        font-size: 1.4rem;
+    }
+
+    .success-icon {
+        font-size: 2.5rem;
+    }
+
+    .success-message {
+        font-size: 0.95rem;
+    }
+
+    .success-line-btn {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+
+    .success-close-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
     }
 }
 
@@ -714,6 +931,18 @@ body {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
     }
 }
 
