@@ -21,6 +21,45 @@ const courseData = {
         `,
         lineUrl: "https://line.me/ti/p/your-dance-teacher-line-id"
     },
+    crystal: {
+    title: "手作水晶",
+    subtitle: "療癒身心靈的能量創作",
+    image: "mis/手作水晶.jpg",
+    description: `
+        <h4>💎 療癒身心靈的能量創作</h4>
+        <p style="margin-bottom: 20px;">手作水晶不只是單純做飾品，更是療癒自己、提升能量的深度過程。在創作中學會穩定情緒，建立個人風格，同時一步步打造屬於自己的第二收入來源。</p>
+        
+        <h4>✨ 課程核心理念</h4>
+        <ul style="margin-bottom: 20px; padding-left: 20px;">
+            <li><strong>氣場穩定：</strong>透過水晶能量調整個人氣場，改善整體狀態</li>
+            <li><strong>情緒療癒：</strong>在創作過程中釋放壓力，找回內在平衡</li>
+            <li><strong>風格建立：</strong>發展獨特的設計美感與個人品牌</li>
+            <li><strong>興趣變現：</strong>將熱愛轉化為實際收入，創造美好生活</li>
+        </ul>
+        
+        <h4>🔮 專業學習內容</h4>
+        <ul style="margin-bottom: 20px; padding-left: 20px;">
+            <li><strong>水晶能量學：</strong>認識各種水晶特性與能量屬性</li>
+            <li><strong>設計美學：</strong>色彩搭配、造型設計、比例美感</li>
+            <li><strong>製作技法：</strong>串珠、編織、金屬加工技巧</li>
+            <li><strong>商業經營：</strong>品牌定位、定價策略、行銷技巧</li>
+        </ul>
+        
+        <h4>💰 創業發展機會</h4>
+        <p style="margin-bottom: 20px;">從興趣到專業，從愛好到事業。課程涵蓋完整的商業化流程，幫助學員建立穩定的第二收入來源。</p>
+        
+        <div style="background: linear-gradient(135deg, #E8F6F3 0%, #F4E7FD 100%); padding: 20px; border-radius: 15px; margin-bottom: 20px; border-left: 4px solid #FFB2AF;">
+            <h4 style="color: #6B4C7A; margin-bottom: 10px;">🌟 學習效益</h4>
+            <p style="color: #666; margin-bottom: 8px;">✔️ 氣場穩了，狀態也不一樣</p>
+            <p style="color: #666; margin-bottom: 8px;">✔️ 作品有溫度，也有價值</p>
+            <p style="color: #666; margin-bottom: 0;">✔️ 興趣變現不是夢，從這裡開始</p>
+        </div>
+        
+        <h4>👥 適合學習對象</h4>
+        <p>適合想要透過手作療癒身心、提升生活品質，並希望發展第二收入的朋友。無論是初學者或有經驗者，都能在課程中找到屬於自己的創作方向。</p>
+    `,
+    lineUrl: "https://line.me/ti/p/awGrSsNQQt"
+},
     family_dance: {
         title: "親子舞蹈",
         subtitle: "增進親子關係的美好時光",
