@@ -81,27 +81,6 @@ const courseData = {
         `,
         lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
-    music_rhythm: {
-        title: "音樂律動",
-        subtitle: "感受音樂的魅力與節拍",
-        image: "mis/音樂律動.jpg",
-        description: `
-            <h4>🎼 音樂與身體的完美結合</h4>
-            <p style="margin-bottom: 20px;">音樂律動課程結合音樂教育與肢體動作，透過身體感受音樂的節拍與旋律，培養音感、節奏感與身體協調性。</p>
-            
-            <h4>🎵 課程學習重點</h4>
-            <ul style="margin-bottom: 20px; padding-left: 20px;">
-                <li><strong>音感培養：</strong>辨識音高、音色、旋律變化</li>
-                <li><strong>節拍訓練：</strong>掌握各種節拍型態</li>
-                <li><strong>肢體表達：</strong>用身體詮釋音樂情感</li>
-                <li><strong>創意即興：</strong>自由創作音樂律動</li>
-            </ul>
-            
-            <h4>🌟 適合對象</h4>
-            <p>適合各年齡層學員，特別適合想要培養音樂能力或改善身體協調性的朋友。</p>
-        `,
-        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
-    },
     yoga: {
         title: "瑜珈課程",
         subtitle: "身心靈平衡的修練",
@@ -120,48 +99,6 @@ const courseData = {
             
             <h4>💆‍♀️ 身心效益</h4>
             <p>改善姿態、增強柔軟度、釋放壓力、提升專注力、促進身心健康。</p>
-        `,
-        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
-    },
-    meditation: {
-        title: "正念冥想",
-        subtitle: "安頓身心靈的平靜練習",
-        image: "mis/冥想.jpg",
-        description: `
-            <h4>🧘 現代人的心靈避風港</h4>
-            <p style="margin-bottom: 20px;">在快節奏的現代生活中，正念冥想是找回內在平靜的有效方法。專業指導師結合東西方靜心智慧，帶領學員培養專注力與覺察力。</p>
-            
-            <h4>🌸 系統化正念訓練</h4>
-            <ul style="margin-bottom: 20px; padding-left: 20px;">
-                <li><strong>呼吸覺察：</strong>正念呼吸法、氣息調節</li>
-                <li><strong>身體掃描：</strong>身體覺察練習、肌肉放鬆</li>
-                <li><strong>情緒調節：</strong>情緒觀察、接納練習</li>
-                <li><strong>日常正念：</strong>正念飲食、正念行走</li>
-            </ul>
-            
-            <h4>🌿 身心健康效益</h4>
-            <p>減輕壓力、改善睡眠、增強免疫力、提升專注力與創造力。</p>
-        `,
-        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
-    },
-    bazi: {
-        title: "八字命理",
-        subtitle: "探索生命智慧與人生規律",
-        image: "mis/八字基礎.jpg",
-        description: `
-            <h4>🔮 傳統智慧的現代應用</h4>
-            <p style="margin-bottom: 20px;">八字命理學是中華文化的瑰寶，我們以科學態度傳承傳統智慧，幫助學員理解生命規律，提升人生智慧。</p>
-            
-            <h4>📚 專業課程架構</h4>
-            <ul style="margin-bottom: 20px; padding-left: 20px;">
-                <li><strong>基礎理論：</strong>天干地支、五行生剋、陰陽理論</li>
-                <li><strong>排盤技巧：</strong>八字排盤、大運流年推算</li>
-                <li><strong>格局分析：</strong>命格判斷、用神取用</li>
-                <li><strong>實務應用：</strong>性格分析、事業規劃</li>
-            </ul>
-            
-            <h4>🎓 專業發展</h4>
-            <p>完成課程可獲得專業命理師結業證書，適合個人修養或專業發展。</p>
         `,
         lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
@@ -417,27 +354,7 @@ const courseData = {
         `,
         lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
-    calligraphy: {
-        title: "書法美學",
-        subtitle: "文字的藝術與心靈修養",
-        image: "mis/書法美學.jpg",
-        description: `
-            <h4>✍️ 中華文字藝術的精髓</h4>
-            <p style="margin-bottom: 20px;">學習傳統書法技法，在一筆一劃中修養身心，領悟中華文字之美。書法不僅是技藝，更是心靈的修練。</p>
-            
-            <h4>📝 書法技能培養</h4>
-            <ul style="margin-bottom: 20px; padding-left: 20px;">
-                <li><strong>基本筆法：</strong>握筆姿勢、運筆技巧</li>
-                <li><strong>字體練習：</strong>楷書、行書、草書</li>
-                <li><strong>章法布局：</strong>字間距、行距、整體布局</li>
-                <li><strong>作品創作：</strong>對聯、條幅、扇面書法</li>
-            </ul>
-            
-            <h4>🎋 文化傳承</h4>
-            <p>傳承中華文化、提升文學素養、培養耐心與專注力。</p>
-        `,
-        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
-    },
+
     pottery: {
         title: "陶藝創作",
         subtitle: "土與火的藝術對話",
@@ -459,69 +376,6 @@ const courseData = {
         `,
         lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
-    glassblowing: {
-        title: "玻璃吹製",
-        subtitle: "高溫藝術的精湛工藝",
-        image: "mis/玻璃吹製.jpg",
-        description: `
-            <h4>🔥 高溫藝術的精湛技藝</h4>
-            <p style="margin-bottom: 20px;">學習傳統玻璃吹製技術，創作精美的玻璃藝術品。在高溫與技巧的結合中，體驗獨特的工藝魅力。</p>
-            
-            <h4>💎 專業技能學習</h4>
-            <ul style="margin-bottom: 20px; padding-left: 20px;">
-                <li><strong>基礎知識：</strong>玻璃特性、工具使用</li>
-                <li><strong>吹製技法：</strong>聚料、吹氣、塑形技巧</li>
-                <li><strong>裝飾技術：</strong>拉絲、貼花、雕刻</li>
-                <li><strong>作品創作：</strong>花瓶、燈具、藝術品</li>
-            </ul>
-            
-            <h4>✨ 藝術價值</h4>
-            <p>創作獨特藝術品、學習稀有工藝技術、體驗高溫藝術的震撼。</p>
-        `,
-        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
-    },
-    jewelry: {
-        title: "清奢飾品製作",
-        subtitle: "精緻優雅的飾品工藝",
-        image: "mis/清奢飾品.jpg",
-        description: `
-            <h4>💍 精緻工藝的優雅表現</h4>
-            <p style="margin-bottom: 20px;">學習飾品設計與製作，創作簡約優雅的手作飾品。在精細的工藝中，展現個人品味與風格。</p>
-            
-            <h4>💎 專業製作技能</h4>
-            <ul style="margin-bottom: 20px; padding-left: 20px;">
-                <li><strong>設計基礎：</strong>美學原理、風格分析</li>
-                <li><strong>材料認識：</strong>金屬、寶石、珠材特性</li>
-                <li><strong>製作技法：</strong>編織、串珠、金工技巧</li>
-                <li><strong>表面處理：</strong>拋光、鍍金、做舊技術</li>
-            </ul>
-            
-            <h4>👑 個人風格</h4>
-            <p>創作獨特飾品、展現個人品味、發展飾品設計事業。</p>
-        `,
-        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
-    },
-    golf: {
-        title: "高爾夫課程",
-        subtitle: "優雅運動的紳士風範",
-        image: "mis/高爾夫.jpg",
-        description: `
-            <h4>⛳ 優雅運動的完美體驗</h4>
-            <p style="margin-bottom: 20px;">專業教練指導，學習高爾夫技術與禮儀。在綠茵場上享受優雅運動的樂趣，培養良好的運動習慣。</p>
-            
-            <h4>🏌️ 專業技術指導</h4>
-            <ul style="margin-bottom: 20px; padding-left: 20px;">
-                <li><strong>基礎姿勢：</strong>握桿、站姿、瞄準技巧</li>
-                <li><strong>揮桿技術：</strong>上桿、下桿、收桿動作</li>
-                <li><strong>球場策略：</strong>球道選擇、距離控制</li>
-                <li><strong>運動禮儀：</strong>球場禮節、安全規範</li>
-            </ul>
-            
-            <h4>🎯 運動效益</h4>
-            <p>提升專注力、鍛鍊身體協調性、培養耐心與毅力、享受戶外運動。</p>
-        `,
-        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
-    }
 };
 
 // 開啟模態框
