@@ -24,7 +24,7 @@ const courseData = {
     crystal: {
     title: "手作水晶",
     subtitle: "療癒身心靈的能量創作",
-    image: "mis/手作水晶.jpg",
+    image: "mis/手作水晶.png",
     description: `
         <h4>💎 療癒身心靈的能量創作</h4>
         <p style="margin-bottom: 20px;">手作水晶不只是單純做飾品，更是療癒自己、提升能量的深度過程。在創作中學會穩定情緒，建立個人風格，同時一步步打造屬於自己的第二收入來源。</p>
