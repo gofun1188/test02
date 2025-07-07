@@ -19,7 +19,7 @@ const courseData = {
             <h4>🏆 適合學習對象</h4>
             <p>適合所有年齡層與程度的學員，無論您是完全初學者，或是希望精進技巧的舞者。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-dance-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     crystal: {
     title: "手作水晶",
@@ -79,7 +79,7 @@ const courseData = {
             <h4>💕 學習效益</h4>
             <p>增強親子關係、提升孩子自信心、培養藝術美感，創造珍貴的親子回憶。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-family-dance-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     music_rhythm: {
         title: "音樂律動",
@@ -100,7 +100,7 @@ const courseData = {
             <h4>🌟 適合對象</h4>
             <p>適合各年齡層學員，特別適合想要培養音樂能力或改善身體協調性的朋友。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-music-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     yoga: {
         title: "瑜珈課程",
@@ -121,7 +121,7 @@ const courseData = {
             <h4>💆‍♀️ 身心效益</h4>
             <p>改善姿態、增強柔軟度、釋放壓力、提升專注力、促進身心健康。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-yoga-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     meditation: {
         title: "正念冥想",
@@ -142,7 +142,7 @@ const courseData = {
             <h4>🌿 身心健康效益</h4>
             <p>減輕壓力、改善睡眠、增強免疫力、提升專注力與創造力。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-meditation-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     bazi: {
         title: "八字命理",
@@ -163,7 +163,7 @@ const courseData = {
             <h4>🎓 專業發展</h4>
             <p>完成課程可獲得專業命理師結業證書，適合個人修養或專業發展。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-bazi-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     tea: {
         title: "茶道文化",
@@ -184,7 +184,7 @@ const courseData = {
             <h4>🌙 禪意生活實踐</h4>
             <p>在茶香中學習放慢腳步、專注當下、品味生活的美好。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-tea-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     soap: {
         title: "手工皂製作",
@@ -205,7 +205,7 @@ const courseData = {
             <h4>🏪 創業發展機會</h4>
             <p>課程涵蓋成本計算與產品開發，適合有意從事手工皂事業的學員。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-soap-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     candle: {
         title: "香氛蠟燭製作",
@@ -226,7 +226,7 @@ const courseData = {
             <h4>🎁 生活應用</h4>
             <p>適合居家使用或作為精美禮品，也可發展為手作事業。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-candle-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     coffee: {
         title: "手沖咖啡",
@@ -247,7 +247,7 @@ const courseData = {
             <h4>🎯 學習目標</h4>
             <p>掌握精品咖啡的沖煮技術，提升生活品味，享受咖啡文化。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-coffee-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     baking: {
         title: "烘焙課程",
@@ -268,7 +268,7 @@ const courseData = {
             <h4>❤️ 學習效益</h4>
             <p>掌握烘焙技術、享受創作樂趣、分享美味給親友，也可發展為事業。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-baking-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     organizer: {
         title: "收納整理師",
@@ -289,7 +289,7 @@ const courseData = {
             <h4>💼 職業發展</h4>
             <p>獲得專業整理師認證，可從事居家整理、辦公室整理等專業服務。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-organizer-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     housekeeping: {
         title: "家政班",
@@ -310,7 +310,7 @@ const courseData = {
             <h4>✨ 學習效益</h4>
             <p>提升居家生活品質、節省家務時間、創造舒適的生活環境。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-housekeeping-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     sewing: {
         title: "縫紉課程",
@@ -331,7 +331,7 @@ const courseData = {
             <h4>👗 創作樂趣</h4>
             <p>製作專屬服飾、修改衣物、發揮創意設計，享受手作的成就感。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-sewing-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     knitting: {
         title: "編織課程",
@@ -352,7 +352,7 @@ const courseData = {
             <h4>💝 溫暖分享</h4>
             <p>創作溫暖的手作禮品，與親友分享手作的溫度與心意。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-knitting-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     floriculture: {
         title: "花藝設計",
@@ -373,7 +373,7 @@ const courseData = {
             <h4>🏡 生活應用</h4>
             <p>美化居家環境、製作特殊場合花藝，也可發展為專業花藝師。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-floriculture-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     gardening: {
         title: "園藝栽培",
@@ -394,7 +394,7 @@ const courseData = {
             <h4>🌿 生活效益</h4>
             <p>創造綠色生活空間、享受栽培樂趣、改善居住環境品質。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-gardening-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     oil_painting: {
         title: "油畫藝術",
@@ -415,7 +415,7 @@ const courseData = {
             <h4>🖼️ 藝術發展</h4>
             <p>培養藝術鑑賞能力、發展個人創作風格、參與藝術展覽活動。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-oil-painting-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     calligraphy: {
         title: "書法美學",
@@ -436,7 +436,7 @@ const courseData = {
             <h4>🎋 文化傳承</h4>
             <p>傳承中華文化、提升文學素養、培養耐心與專注力。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-calligraphy-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     pottery: {
         title: "陶藝創作",
@@ -457,7 +457,7 @@ const courseData = {
             <h4>🏮 藝術療癒</h4>
             <p>在創作中找到內心平靜、發揮創意潛能、製作實用藝術品。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-pottery-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     glassblowing: {
         title: "玻璃吹製",
@@ -478,7 +478,7 @@ const courseData = {
             <h4>✨ 藝術價值</h4>
             <p>創作獨特藝術品、學習稀有工藝技術、體驗高溫藝術的震撼。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-glassblowing-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     jewelry: {
         title: "清奢飾品製作",
@@ -499,7 +499,7 @@ const courseData = {
             <h4>👑 個人風格</h4>
             <p>創作獨特飾品、展現個人品味、發展飾品設計事業。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-jewelry-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     },
     golf: {
         title: "高爾夫課程",
@@ -520,7 +520,7 @@ const courseData = {
             <h4>🎯 運動效益</h4>
             <p>提升專注力、鍛鍊身體協調性、培養耐心與毅力、享受戶外運動。</p>
         `,
-        lineUrl: "https://line.me/ti/p/your-golf-teacher-line-id"
+        lineUrl: "https://line.me/ti/p/UgDPsa4pFb"
     }
 };
 
